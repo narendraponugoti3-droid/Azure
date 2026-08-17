@@ -13,10 +13,10 @@ Second VM place in Zone 2
 
 This is called zone redundancy
 
-Step1 : Create RG and VN with one Subnet 
-Step2 : Create VM with Zone1 and open the port 22 and 80 and enable public IP 
-Step 3: Create Another VM with zone 2 and open the port 22 and 80  enable public IP 
-Step 4: connect to VM ( ssh devopsuser@ipaddress )
+               -   Step1 : Create RG and VN with one Subnet 
+               -   Step2 : Create VM with Zone1 and open the port 22 and 80 and enable public IP 
+               -   Step 3: Create Another VM with zone 2 and open the port 22 and 80  enable public IP 
+               -    Step 4: connect to VM ( ssh devopsuser@ipaddress )
                    Sudo su -
                    apt update 
                    apt install apache2 -y 
@@ -25,5 +25,5 @@ Step 4: connect to VM ( ssh devopsuser@ipaddress )
                    remove the content and copy the content here 
                    Then Save it 
                    http://publicipaddress 
-Step 5 : Repeat step4 in Another VM also 
+              -  Step 5 : Repeat step4 in Another VM also 
 
