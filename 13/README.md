@@ -80,15 +80,15 @@ we have existing VM with below configuration and but that VM is not sufficient s
 This is called Vertical Scaling  , we are getting this type of requirments frequently 
 
    ### Horizontal Scaling 
-        we have existing LB with 2 VM but Particular time we are receiving more load so we need to increase the VM 
-        Then We need to reduce the VM as well 
-        In this case ,, we need to use he Horizontal Scaling 
-        Based on the Load , VM is going to increase uo to 10 VM based on the Load like CPU utilization , Memory Utilization , Disk Utilization 
+   
+we have existing LB with 2 VM but Particular time we are receiving more load so we need to increase the VM  Then We need to reduce the VM as well in this case , we need to use he Horizontal Scaling 
+Based on the Load , VM is going to increase uo to 10 VM based on the Load like CPU utilization , Memory Utilization           Disk Utilization 
+
+        
         <img width="1135" height="227" alt="image" src="https://github.com/user-attachments/assets/0d578762-3aef-4570-88f0-c2ae8887206e" />
 
 
-In this Horizontal Scaling , we need a base image with configuration of existing VM 
-we need to convert the image using already configured VM 
+In this Horizontal Scaling , we need a base image with configuration of existing VM  we need to convert the image using already configured VM 
 
 ### Create an Image using existing VM 
 
