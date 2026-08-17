@@ -85,17 +85,18 @@ we have existing LB with 2 VM but Particular time we are receiving more load so 
 Based on the Load , VM is going to increase uo to 10 VM based on the Load like CPU utilization , Memory Utilization           Disk Utilization 
 
         
-        <img width="1135" height="227" alt="image" src="https://github.com/user-attachments/assets/0d578762-3aef-4570-88f0-c2ae8887206e" />
+<img width="1135" height="227" alt="image" src="https://github.com/user-attachments/assets/0d578762-3aef-4570-88f0-c2ae8887206e" />
 
 
 In this Horizontal Scaling , we need a base image with configuration of existing VM  we need to convert the image using already configured VM 
 
 ### Create an Image using existing VM 
 
-    Go to Public IP Address  ---> select IP Address --> Click Associate --> Resource Type :Network Interface 
-    Select the VM ( VM which is standalone VM) 
+Go to Public IP Address  ---> select IP Address --> Click Associate --> Resource Type :Network Interface 
+Select the VM ( VM which is standalone VM) 
 
-    Connect to Existing VM and then this command to delete some of properties 
-        waagent -dprovision+user
-    Then Stop the Existing VM  , Click the Capture  --> Select Image --> Then Fill all detials then create it 
+Connect to Existing VM and then this command to delete some of properties 
+    waagent -dprovision+user
+    
+Then Stop the Existing VM  , Click the Capture  --> Select Image --> Then Fill all detials then create it 
     
