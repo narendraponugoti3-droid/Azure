@@ -6,7 +6,7 @@
        Files = File system
        Queue = Messages
        Table = NoSQL data 
-       <img width="830" height="239" alt="image" src="https://github.com/user-attachments/assets/d83fe75e-7a31-42b6-9019-d0ded332b814" />
+   <img width="830" height="239" alt="image" src="https://github.com/user-attachments/assets/d83fe75e-7a31-42b6-9019-d0ded332b814" />
 
 Blob = Binary Large Object
 Blob Storage is designed primarily for unstructured data.
