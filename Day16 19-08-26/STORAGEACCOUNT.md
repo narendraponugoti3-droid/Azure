@@ -32,6 +32,15 @@ Blob Storage as storage for binary and text data
 
 Q: Where would you store frequently accessed product images? 
 Hot Blob Storage
+
+### Blob Lifecycle Management
+     You can automatically move blobs between tiers
+     HOT Day 0 To Day 30 
+     COOL DAY 30 To Day 90 
+     COLD DAY 90 To Day 365
+     THEN ARCHIVE 
+
+
 <img width="1171" height="301" alt="image" src="https://github.com/user-attachments/assets/d507c075-d9e9-4342-800d-0b15ae8f439c" />
 
 
@@ -70,3 +79,19 @@ total 6 copies -- 3 copies primary  , 3 copies are secondary
 #### GZRS — Geo-Redundant Storage
 
 <img width="1136" height="396" alt="image" src="https://github.com/user-attachments/assets/99fe977b-b3cf-4e62-b91d-4adf18717380" />
+
+
+| Type        | Within Region | Across Zones | Secondary Region | Read Secondary |
+| ----------- | ------------: | -----------: | ---------------: | -------------: |
+| **LRS**     |             ✅ |            ❌ |                ❌ |              ❌ |
+| **ZRS**     |             ✅ |            ✅ |                ❌ |              ❌ |
+| **GRS**     |             ✅ |           ❌* |                ✅ |              ❌ |
+| **RA-GRS**  |             ✅ |           ❌* |                ✅ |              ✅ |
+| **GZRS**    |             ✅ |            ✅ |                ✅ |              ❌ |
+| **RA-GZRS** |             ✅ |            ✅ |                ✅ |              ✅ |
+
+
+
+
+
+
