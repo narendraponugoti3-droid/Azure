@@ -46,7 +46,8 @@ Azure Console -- Search Load Balancer  - Create Load balancer with standard LB
 Subscribtion: 
    - Resource Grooup: 
    - Name: MFLB 
-  - REgion: Canada centrol 
+  - Region: Canada centrol
+    
 SKU : 
    - Type: Public ( public/ internal )
    - Tier: Global (Global , region )
