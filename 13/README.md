@@ -44,12 +44,12 @@ Now Introducing the load balancer to connect both VM in different Zone with out 
 Azure Console -- Search Load Balancer  - Create Load balancer with standard LB 
 
 Subscribtion: 
-    Resource Grooup: 
-Name: MFLB 
-REgion: Canada centrol 
+   - Resource Grooup: 
+   - Name: MFLB 
+  - REgion: Canada centrol 
 SKU : 
-Type: Public ( public/ internal )
-Tier: Global (Global , region )
+   - Type: Public ( public/ internal )
+   - Tier: Global (Global , region )
 
 ### Front end Configuration :
 Public IP created and give it to front end 
