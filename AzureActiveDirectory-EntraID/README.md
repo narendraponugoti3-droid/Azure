@@ -24,6 +24,9 @@ In azure , we are giving the 2 permisions fregently ( Owner , contributor )
 Owner : we can perform any activity on that resource and she can also give permissions to other users 
 Contributor : we can perform any activity on that resource  , she/he cannot give the permissions to other users 
 
+<img width="879" height="267" alt="image" src="https://github.com/user-attachments/assets/7d5612a7-e86d-414b-a66f-3832394d1f63" />
+
+
 go to Azure EntraID --> Create a USER 
 Then Take Userid and then log in to azure portal 
 we cannot perform any action because you dont have any permissions 
