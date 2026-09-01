@@ -14,6 +14,11 @@ Service Principlas
 | **Resource Group**   | Organize **Azure resources**                       |
 | **Resource**         | VM, Storage Account, SQL DB, VNet, etc.            |
 
+Azure --> EntraId 
+Primary Domain : azure provide default domain name with no charges 
+If you want to provide custom domain , you need to buy entra id licenses 
+<img width="1663" height="278" alt="image" src="https://github.com/user-attachments/assets/abc32337-e7f2-426b-9209-2d2e573bdbe9" />
+
 
 In azure , we are giving the 2 permisions fregently ( Owner , contributor )
 Owner : we can perform any activity on that resource and she can also give permissions to other users 
