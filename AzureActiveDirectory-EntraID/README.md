@@ -7,6 +7,12 @@ Resource Group is nothing but logical container of your resources
 
 Service Principlas 
 <img width="1445" height="541" alt="image" src="https://github.com/user-attachments/assets/3b92f6dc-d8af-4501-8327-c03cbd6d6d14" />
+| Level                | Purpose                                            |
+| -------------------- | -------------------------------------------------- |
+| **Management Group** | Organize/manage **subscriptions**                  |
+| **Subscription**     | Billing and security boundary containing resources |
+| **Resource Group**   | Organize **Azure resources**                       |
+| **Resource**         | VM, Storage Account, SQL DB, VNet, etc.            |
 
 
 In azure , we are giving the 2 permisions fregently ( Owner , contributor )
