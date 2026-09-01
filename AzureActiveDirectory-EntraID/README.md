@@ -66,3 +66,6 @@ Echo $access_token
 Then run this command 
 
 curl "https://storageiamnavishna.blob.core.windows.net/narendra?restype=container&comp=list" -H "x-ms-version: 2023-11-03" -H "Authorization: Bearer $access_token"
+
+
+curl "https://storageiamnavishna.blob.core.windows.net/narendra/Hello.txt" -H "x-ms-version: 2023-11-03" -H "Authorization: Bearer $access_token"
