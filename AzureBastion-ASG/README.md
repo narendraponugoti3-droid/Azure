@@ -44,7 +44,7 @@ Steps :
   - Create a Virtual Network
 <img width="1285" height="581" alt="image" src="https://github.com/user-attachments/assets/9ac7c934-4ee2-4434-a055-855c4ae04358" />
   -  Create the Review + Create
-  -  Then Create the Bastions
+  -  Then Create the Bastions with VM along with AzureBastionSubent 
 <img width="775" height="646" alt="image" src="https://github.com/user-attachments/assets/a081d244-702a-4c64-aa59-11535a85c973" />
 
   - Advanced features of Azure Bastion
@@ -57,3 +57,15 @@ Steps :
                   Instead of relying simply on a VM's local username/password, an organization can use domain credentials.
 -  Native client support  : Normally, you connect through the Azure Portal browser session:
 -  Shareable Link : It allows an administrator to create a temporary link that another person can use to connect to a VM through Bastion.
+
+
+Then Create a windows  Machines with VM and subnet: trading 
+Then Create a linux  Machines with VM and different subnet
+Then Both machines we cannot via bastion  and also we can remove the ssh from NSG of Linux machine and to enable the Ip address of windows machine on ths NSG of linux 
+means first we can connect the windows machine via bastion then from windwos machine we can connect to linux 
+we cannot connect linux machine from bastion 
+
+
+### ASG - Application Security Group 
+Create a Application Security group and add the group of the VMs to to ASG 
+Then Open the VM and go to Networking --> Application Security group --Add 
